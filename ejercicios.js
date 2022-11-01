@@ -541,38 +541,63 @@ function incrementarPorUno(array) {
   // Tu código:
 }
 
-function agregarItemAlFinalDelArray(array, elemento) {
-  // Añade el "elemento" al final del array
-  // y devuelve el array
-  // Tu código:
-}
+// function agregarItemAlFinalDelArray(comida, elemento) {
+//   // Añade el "elemento" al final del array
+//   // y devuelve el array
+//   // Tu código:
+//   let array = comida.push (elemento);
+//   console.log (comida)
+// }
+// let comida = ["Pan", "Queso", "Lechuga"];
+// let elemento = ("Papas");
+// agregarItemAlFinalDelArray(comida, elemento)
 
-function agregarItemAlComienzoDelArray(array, elemento) {
-  // Añade el "elemento" al comienzo del array
-  // y devuelve el array
-  // Pista: usa el método `.unshift`
-  // Tu código:
-}
 
-function dePalabrasAFrase(palabras) {
-  // "palabras" es un array de strings/cadenas
-  // Devuelve un string donde todas las palabras estén concatenadas
-  // con espacios entre cada palabra
-  // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
-  // Tu código:
-}
+// function agregarItemAlComienzoDelArray(auto, auto2) {
+//   // Añade el "elemento" al comienzo del array
+//   // y devuelve el array
+//   // Pista: usa el método `.unshift`
+//   // Tu código:
+//   let genera = auto.unshift(auto2);
+//   console.log (auto);
+// }
+// let auto = ["Ford","Fiat","Peugeot"];
+// agregarItemAlComienzoDelArray(auto, "BMW")
 
-function arrayContiene(array, elemento) {
-  // Comprueba si el elemento existe dentro de "array"
-  // Devuelve "true" si está, o "false" si no está
-  // Tu código:
-}
+// function dePalabrasAFrase(palabras) {
+//   // "palabras" es un array de strings/cadenas
+//   // Devuelve un string donde todas las palabras estén concatenadas
+//   // con espacios entre cada palabra
+//   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
+//   // Tu código:
+//   let frase = palabras;
+//   console.log(frase[0] +" "+ frase[1])
+// }
+// let palabras=["Francisco", "Escobar"]
+// dePalabrasAFrase(palabras)
 
-function agregarNumeros(numeros) {
-  // "numeros" debe ser un arreglo de enteros (int/integers)
-  // Suma todos los enteros y devuelve el valor
-  // Tu código:
-}
+// function arrayContiene(clubes, elemento) {
+//   // Comprueba si el elemento existe dentro de "array"
+//   // Devuelve "true" si está, o "false" si no está
+//   // Tu código:
+//  console.log(clubes.includes(elemento))
+// }
+// let clubes =["River", "Boca", "CASM"];
+// let elemento = "CASM";
+// arrayContiene(clubes, elemento)
+
+// function agregarNumeros(numeros) {
+//   // "numeros" debe ser un arreglo de enteros (int/integers)
+//   // Suma todos los enteros y devuelve el valor
+//   // Tu código:
+//   for (i=0; i<=numeros.length ; i++){
+//     let suma= x +=numeros[i];
+//     console.log(suma);
+//   }
+// }
+// let numeros=[2,4,1,7,9];
+// let x=0;
+// agregarNumeros(numeros)
 
 function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
@@ -580,29 +605,60 @@ function promedioResultadosTest(resultadosTest) {
   // Tu código:
 }
 
-function numeroMasGrande(numeros) {
-  // "numeros" debe ser una matriz de enteros (int/integers)
-  // Devuelve el número más grande
-  // Tu código:
-}
+// function numeroMasGrande(numeros) {
+//   // "numeros" debe ser una matriz de enteros (int/integers)
+//   // Devuelve el número más grande
+//   // Tu código:
+//   console.log (Math.max (...numeros));
+// }
+// numeroMasGrande([1,4,7,9,3]) 
 
-function multiplicarArgumentos() {
-  // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
-  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
-  // Escribe tu código aquí:
-}
+// function multiplicarArgumentos(x,y) {
+//   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
+//   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
+//   // Escribe tu código aquí:
+//   console.log (arguments[0]*arguments[1])
+// }
+// multiplicarArgumentos(2,6)
 
 function cuentoElementos(arreglo) {
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
 }
 
-function diaDeLaSemana(numeroDeDia) {
-  //Suponga que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente.
-  //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
-  //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario.
-  //Escribe tu código aquí
-}
+// function diaDeLaSemana(numeroDeDia) {
+//   //Suponga que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente.
+//   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
+//   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario.
+//   //Escribe tu código aquí
+//   switch(numeroDeDia){
+//     case (7):
+//       console.log("Es fin de semana")
+//       break;
+//     case (1):
+//       console.log("Es fin de semana")
+//       break;
+//     case (2):
+//       console.log("Es dia laboral")
+//       break;
+//     case (3):
+//       console.log("Es dia laboral")
+//       break;
+//     case (4):
+//       console.log("Es dia laboral")
+//       break;
+//     case (5):
+//       console.log("Es dia laboral")
+//       break;
+//     case (6):
+//       console.log("Es dia laboral")
+//       break;
+//     default:
+//       console.log("Ingrese nuevamente el dia de la semana")
+//   }
+// }
+// diaDeLaSemana(1)
+
 
 function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero
@@ -647,4 +703,3 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
 }
-
